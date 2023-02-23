@@ -1,0 +1,107 @@
+.singlePage {
+  padding: 50px 0;
+  background: #fff;
+}
+.singlePage .right {
+  margin-top: 50px;
+}
+.singlePage img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.singlePage h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.singlePage p {
+  margin: 20px 0;
+  font-size: 17px;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.singlePage .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.singlePage .button {
+  margin-left: 20px;
+  border: none;
+}
+.singlePage .button:nth-child(1) {
+  background: #10ac84;
+}
+.singlePage .button:nth-child(2) {
+  background: #ee5253;
+}
+.updateInput {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: serif;
+}
+
+.orderlit table{
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+.orderlit table, th, td{
+  border:1px solid rgb(255, 255, 255);
+  
+}
+.check input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 190px;
+}
+
+.check{
+  color: #5c5c5c;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #b6def7;
+  padding: 2rem 4rem;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 50%;
+}
+
+.check table{
+  width: 100%;
+  text-align: center;
+  background-color: #99ddcc;
+  color: #000000;
+}
+.check table, th, td{
+  border:1px solid rgb(0, 0, 0);
+  
+}
+
+/* .check label{
+  color: rgb(49, 48, 48);
+} */
+
+.check button{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.4em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #2ba04e;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+.datefrom{
+  color: #000000;
+  background-color: #99ddcc;
+  padding-bottom: 1em;
+  border-radius: 10px;
+}

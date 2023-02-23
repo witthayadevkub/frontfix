@@ -1,0 +1,44 @@
+.order{
+    margin-top: 50px;
+}
+
+
+.orderlit{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0px 5px rgb(0 0 0 / 8%);
+}
+.orderlit p{
+    color: rgb(255, 255, 255);
+}
+
+.inputfilter{
+display: flex;
+flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0px 5px rgb(0 0 0 / 8%);
+    color: rgb(255, 255, 255);
+}
+span{
+    font-weight: bold;
+    
+}
+
+input {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 190px;
+  }
+
+.inputfilter input{
+   background-color: rgb(146, 146, 146);
+   padding: 0.5rem ;
+}
+

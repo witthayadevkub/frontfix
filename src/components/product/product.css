@@ -1,0 +1,72 @@
+.product {
+    margin-top: 50px;
+  }
+  .product .boxItems {
+    transition: 0.5s;
+    display: flex;
+  }
+  .product .boxItems:hover {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+  .DeleteProduct p{
+    font-size: 2.5rem;
+    color: rgb(253, 0, 0);
+    text-shadow: 0 0px 2px rgb(253, 0, 0);
+    border-radius: 10px;
+  }
+  .product img {
+    width: 105px;
+    height: 105px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  .product .details {
+    width: 100%;
+  }
+  .product .details h3 {
+    font-size: 17px;
+  }
+  .product .details p {
+    margin: 10px 0;
+  }
+
+  .product .details i{
+    font-size: 2.5rem;
+    color: rgb(44, 184, 98);
+    text-shadow: 0 0px 2px rgb(24, 87, 139);
+    
+  }
+
+  .Hi{
+    color: rgb(21, 99, 51);
+    text-shadow: 0 0px 1px #00c9fc;
+  }
+  .product button {
+    font-size: 25px;
+    margin-top: 15px;
+    float: right;
+  }
+  .coutHi{
+    color: rgb(255, 81, 0);
+    text-shadow: 0 0px 1px rgb(255, 0, 0);
+  }
+  
+  .star{
+    display: flex;
+  }
+  .star .s{
+    color: #ddb60a;
+    text-shadow: 0 0px 2px rgb(247, 252, 0);
+  }
+  .star .n{
+    color: #a1a1a1;
+  }
+ .full{
+    color: #0a7919;
+    text-shadow: 0 0px 1px #00c9fc;
+  }
+
+
